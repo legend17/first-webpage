@@ -1,0 +1,209 @@
+
+
+body html{
+    margin: 17px;
+    display: block;
+    font-family: arial,sans-serif;
+    font-size: small;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.toplist{
+	top: 10px;
+    font-size: 18px;
+    float: right;
+    position: relative;
+	left: -50px;
+    top: -3px;
+    margin: 2px;
+    
+    
+}
+
+.firstlist{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	display: inline;
+
+}
+
+.top{
+	display: inline;
+}
+
+.firstlist a{
+	text-decoration: none;
+	color: grey;
+	display: inline;
+	
+}
+
+.top a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+.content{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 40%;
+	position: relative;
+	bottom: -250px;
+	font-size: 20px;
+}
+
+
+img{
+	width: 80%;
+	position: relative;
+    right: -80px;
+    top: -200px;
+}
+
+form{
+	margin-left: auto;
+    margin-right: auto;
+	width: 180%;
+	position: relative;
+	right: -50px;
+	top: -190px;
+	height: 40px;
+}
+
+input{
+    font-size: 25px;
+    width: 50%;
+}
+
+.secondlist{
+	margin: 13px;
+	padding: 13px 0px 0px 0px;
+	position:relative;
+    right: -150px;
+	top: -170px;
+    list-style: none;
+   
+}
+
+.under a{
+	text-decoration: none;
+	color: grey;
+	font-weight: bold;
+	opacity: 0.8;
+    box-shadow: #c8cbd1;
+    background-color: #e6e8ed;
+    width: 12px; 
+}
+
+.under{
+    padding: 0px;
+    margin: 5px;
+    display: inline;
+    font-size: 18px;
+    position: relative;
+    top: -30px;
+}
+
+.under a:hover{
+	width: 30px;
+	margin: 0 auto;
+	border: solid 1px;
+	border-color: grey;
+	color: black;
+	background-color: #c8cbd1;
+	
+	
+}
+
+.middlelist{
+	float:right;
+	text-decoration: none;
+	margin:0;
+	padding:0;
+}
+
+.center{
+	display: inline;
+	margin: 3px;
+	padding: 0;
+	position: relative;
+	top: -190px;
+	left: -110px;
+    font-size: 15px; 
+	
+}
+
+.center a {
+    text-decoration: none;
+  
+}
+
+.center a:hover{
+	text-decoration: underline;
+}
+
+.footer{
+    background-color: #f9f9f9;
+    padding: 0px;
+    margin: 0px;
+    height: 40%;
+    position: relative;
+    bottom:-383px;
+    
+}
+
+.footer p{
+    position: relative;
+    bottom: -5px;
+    right: -50px;
+    color: grey;
+    width: 100%;
+}
+
+.leftlist{
+    list-style: none;
+    position: relative;
+    top: -5px;
+}
+
+.bottomleft{
+    display: inline;
+    margin: 5px;
+}
+
+.bottomleft a{
+    text-decoration: none;
+    color: grey;
+}
+
+.bottomleft a:hover{
+    text-decoration: underline;
+}
+
+
+
+.rightlist{
+    list-style: none;
+    float: right;
+    position: relative;
+    top: -60px;
+    left: -50px;
+}
+
+.bottomright{
+    display: inline;
+    margin: 5px;
+}
+
+.bottomright a{
+    text-decoration: none;
+    color: grey;
+}
+
+.bottomright a:hover{
+    text-decoration: underline;
+}
