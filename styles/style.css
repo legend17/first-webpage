@@ -1,24 +1,26 @@
 
 
-body html{
-    margin: 17px;
-    display: block;
-    font-family: arial,sans-serif;
-    font-size: small;
-    max-width: 100%;
-    min-width: 100%;
-}
-
 .toplist{
-	top: 10px;
-    font-size: 18px;
+    top: auto;
+    bottom: -12px;
+    font-size: 12px;
     float: right;
     position: relative;
-	left: -50px;
-    top: -3px;
-    margin: 2px;
-    
-    
+	left: -15px;
+    margin: 5px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+span.glyphicon{
+    font-size: 16px;
+    margin: 5px;
+    color: grey;
+}
+
+.top:hover .glyphicon{
+    color: black;
+    opacity: 0.9;
 }
 
 .firstlist{
@@ -35,14 +37,16 @@ body html{
 
 .firstlist a{
 	text-decoration: none;
-	color: grey;
+	color: black;
 	display: inline;
+    margin: 5px;
 	
 }
 
 .top a:hover{
 	text-decoration: underline;
 	font-weight: bold;
+    color: grey;
 }
 
 
