@@ -93,12 +93,12 @@ input{
     border-color:#ccc;
     padding: 0px;
     margin:0px;
-    height: 40px;
+    height: 35px;
     width: 75%;
     background-color: #effff;
     outline: none;
     transform: scale(1.1,1.1);
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 input:hover{
@@ -112,17 +112,29 @@ input:hover:after{
 }
 
 .button{
-    width: 140px;
+    width: 118px;
     height: 30px;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     position:relative;
     right: -190px;
     top: -130px;
     margin: 4px;
     padding: 0px;
-    opacity: 0.9;
-    border: none;
+    border: none; 
+    /*opacity: 0.9;*/
+    font-weight: bold;
+    color: #757575;
+    background-color: #efefef; 
+    outline-color: none; 
+}
+
+.button:hover{
+    color: black;
+    border: 1px solid;
+    border-color:#ccc;
+   /* background-color: #fff;*/
+    
 }
 
 /*.middlelist{
