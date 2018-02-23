@@ -131,7 +131,7 @@ input:hover:after{
     border-color: #ccc;
 }
 
-/*.middlelist{
+.middlelist{
 	float:right;
 	text-decoration: none;
 	margin:0;
@@ -143,20 +143,21 @@ input:hover:after{
 	margin: 3px;
 	padding: 0;
 	position: relative;
-	top: -190px;
-	left: -110px;
-    font-size: 15px; 
+	top: -112px;
+	left: -95px;
+    font-size: 12px;
 	
 }
 
 .center a {
     text-decoration: none;
+    color: #0f3cc4;
   
 }
 
 .center a:hover{
 	text-decoration: underline;
-}*/
+}
 
 .footer{
     background-color: #f9f9f9;
