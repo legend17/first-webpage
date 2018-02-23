@@ -61,8 +61,6 @@ span.glyphicon{
 
 
 img{
-	/*margin-left: auto;
-    margin-right: auto;*/
     width: 60%;
     position: relative;
     top: -160px;
@@ -85,14 +83,13 @@ form i{
 
 
 input{
-    /*width: 85%;*/
-    position:relative;
+    position: relative;
     right: -95px;
     top: -155px;
     border: 1px solid;
-    border-color:#ccc;
+    border-color: #ccc;
     padding: 0px;
-    margin:0px;
+    margin: 0px;
     height: 35px;
     width: 75%;
     background-color: #effff;
@@ -117,12 +114,11 @@ input:hover:after{
     font-size: 12px;
     text-align: center;
     position:relative;
-    right: -165px;
+    right: -165 px;
     top: -130px;
     margin: 4px;
     padding: 0px;
     border: none; 
-    /*opacity: 0.9;*/
     font-weight: bold;
     color: #757575;
     background-color: #efefef; 
@@ -132,9 +128,7 @@ input:hover:after{
 .button:hover{
     color: black;
     border: 1px solid;
-    border-color:#ccc;
-   /* background-color: #fff;*/
-    
+    border-color: #ccc;
 }
 
 /*.middlelist{
