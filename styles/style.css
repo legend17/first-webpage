@@ -131,7 +131,7 @@ input:hover:after{
     border-color: #ccc;
 }
 
-/*.middlelist{
+.middlelist{
 	float:right;
 	text-decoration: none;
 	margin:0;
@@ -143,20 +143,22 @@ input:hover:after{
 	margin: 3px;
 	padding: 0;
 	position: relative;
-	top: -190px;
-	left: -110px;
-    font-size: 15px; 
+	top: -115px;
+	left: -90px;
+    font-size: 12px; 
 	
 }
 
 .center a {
     text-decoration: none;
+    color: #2534ba;
   
 }
 
 .center a:hover{
 	text-decoration: underline;
-}*/
+    color: #2534ba;
+}
 
 .footer{
     background-color: #f9f9f9;
@@ -164,8 +166,10 @@ input:hover:after{
     margin: 0px;
     height: 40%;
     position: relative;
-    bottom:-383px;
-    
+    bottom: -430px;
+    border: 1px 0px 2px solid;
+    border-color: #c6c6c6;
+    width: 100%;
 }
 
 .footer p{
@@ -179,7 +183,7 @@ input:hover:after{
 .leftlist{
     list-style: none;
     position: relative;
-    top: -5px;
+    bottom: -10px;
 }
 
 .bottomleft{
@@ -202,7 +206,7 @@ input:hover:after{
     list-style: none;
     float: right;
     position: relative;
-    top: -60px;
+    top: -25px;
     left: -50px;
 }
 
