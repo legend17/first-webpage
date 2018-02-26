@@ -162,14 +162,12 @@ input:hover:after{
 
 .footer{
     background-color: #f9f9f9;
-    padding: 0px;
-    margin: 0px;
-    height: 40%;
+    height: 80%;
     position: relative;
     bottom: -430px;
-    border: 1px 0px 2px solid;
-    border-color: #c6c6c6;
-    width: 100%;
+    border-top: 1px solid;
+    border-color: #e5e3e3;
+    width: 96%; 
 }
 
 .footer p{
@@ -177,13 +175,31 @@ input:hover:after{
     bottom: -5px;
     right: -50px;
     color: grey;
-    width: 100%;
+}
+
+.second-footer{
+    background-color:  #f9f9f9; 
+    height: 50px;
+    border-top: 1px solid;
+    border-color: #e5e3e3;
+    width: 96%;
+    position: relative;
+    bottom: -430px;
 }
 
 .leftlist{
     list-style: none;
     position: relative;
-    bottom: -10px;
+    bottom: -8px;
+   
+}
+
+.rightlist{
+    list-style: none;
+    float: right;
+    position: relative;
+    top: -23px;
+    left: -50px;
 }
 
 .bottomleft{
@@ -202,13 +218,7 @@ input:hover:after{
 
 
 
-.rightlist{
-    list-style: none;
-    float: right;
-    position: relative;
-    top: -25px;
-    left: -50px;
-}
+
 
 .bottomright{
     display: inline;
