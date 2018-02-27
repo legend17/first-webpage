@@ -167,7 +167,7 @@ input:hover:after{
     bottom: -430px;
     border-top: 1px solid;
     border-color: #e5e3e3;
-    width: 96%; 
+    width: 100%; 
 }
 
 .footer p{
@@ -182,7 +182,7 @@ input:hover:after{
     height: 50px;
     border-top: 1px solid;
     border-color: #e5e3e3;
-    width: 96%;
+    width: 100%;
     position: relative;
     bottom: -430px;
 }
