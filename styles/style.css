@@ -168,12 +168,14 @@ input:hover:after{
     border-top: 1px solid;
     border-color: #e5e3e3;
     width: 100%; 
+    margin-left: -80px;
+    
 }
 
 .footer p{
     position: relative;
     bottom: -5px;
-    right: -50px;
+    right: -80px;
     color: grey;
 }
 
@@ -185,11 +187,13 @@ input:hover:after{
     width: 100%;
     position: relative;
     bottom: -430px;
+    margin-right: -80px;
 }
 
 .leftlist{
     list-style: none;
     position: relative;
+    left: -45px;
     bottom: -8px;
    
 }
@@ -214,6 +218,7 @@ input:hover:after{
 
 .bottomleft a:hover{
     text-decoration: underline;
+    color: grey;
 }
 
 
@@ -232,4 +237,5 @@ input:hover:after{
 
 .bottomright a:hover{
     text-decoration: underline;
+    color: grey;
 }
