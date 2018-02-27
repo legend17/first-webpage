@@ -1,4 +1,11 @@
 
+html, body {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 10px;
+    padding-right: 30px;
+}
+
 
 .toplist{
     top: auto;
