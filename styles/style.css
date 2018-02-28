@@ -61,6 +61,8 @@ span.glyphicon{
 
 
 img{
+    height: auto;
+    max-width: 400px;
     width: 60%;
     position: relative;
     top: -160px;
@@ -68,6 +70,8 @@ img{
 }
 
 form{
+    height: 40px;
+    max-width: 100%;
     font-size:20px;
     margin: 0px;
     padding: 0px;
