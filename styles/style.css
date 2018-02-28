@@ -109,7 +109,8 @@ input:hover:after{
 }
 
 .button{
-    width: 118px;
+    width: 100%;
+    max-width: 118px;
     height: 30px;
     font-size: 12px;
     text-align: center;
