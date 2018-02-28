@@ -3,7 +3,7 @@ html, body {
     max-width: 100%;
     max-height: 100%;
     margin-left: 0;
-    padding: 0 30px 0 30px;
+    padding: 0 30px 0 0;
 }
 
 
@@ -63,21 +63,25 @@ span.glyphicon{
 	width: 40%;
 	position: relative;
 	bottom: -250px;
+    left: -10px;
 	font-size: 2px;
 }
 
 
 img{
-    width: 60%;
+    max-width: 400px;
+    width: 55%;
     position: relative;
-    top: -160px;
-    right: -140px;
+    top: -150px;
+    right: -210px;
+    text-align: center;
 }
 
 form{
     font-size:20px;
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
 
 form i{
@@ -86,6 +90,7 @@ form i{
     right: -80px;
     align-items: center;
     color: #4e91fc;
+    text-align: center;
 }
 
 
@@ -98,17 +103,17 @@ input{
     padding: 0px;
     margin: 0px;
     height: 35px;
-    width: 75%;
+    width: 80%;
     background-color: #effff;
     outline: none;
     transform: scale(1.1,1.1);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 1px #ccc;
 }
 
 input:hover{
     box-shadow: 0 2px 2px #ccc;
     transform: scale(1.1,1.1);
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 input:hover:after{
@@ -121,7 +126,7 @@ input:hover:after{
     font-size: 12px;
     text-align: center;
     position: relative;
-    right: -195px;
+    right: -280px;
     top: -130px;
     margin: 4px;
     padding: 0px;
@@ -151,7 +156,7 @@ input:hover:after{
 	padding: 0;
 	position: relative;
 	top: -115px;
-	left: -90px;
+	right: -10px;
     font-size: 12px; 
 	
 }
