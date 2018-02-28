@@ -71,6 +71,9 @@ span.glyphicon{
 img{
     max-width: 400px;
     width: 55%;
+    height: auto;
+    max-width: 400px;
+  
     position: relative;
     top: -150px;
     right: -210px;
@@ -78,6 +81,8 @@ img{
 }
 
 form{
+    height: 40px;
+    max-width: 100%;
     font-size:20px;
     margin: 0px;
     padding: 0px;
@@ -103,7 +108,10 @@ input{
     padding: 0px;
     margin: 0px;
     height: 35px;
+
     width: 80%;
+    max-width: 450px;
+    width: 75%;
     background-color: #effff;
     outline: none;
     transform: scale(1.1,1.1);
