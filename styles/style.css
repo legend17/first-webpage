@@ -136,7 +136,7 @@ input:hover:after{
     border-color: #ccc;
 }
 
-/*.middlelist{
+.middlelist{
 	float:right;
 	text-decoration: none;
 	margin:0;
@@ -148,43 +148,67 @@ input:hover:after{
 	margin: 3px;
 	padding: 0;
 	position: relative;
-	top: -190px;
-	left: -110px;
-    font-size: 15px; 
+	top: -115px;
+	left: -90px;
+    font-size: 12px; 
 	
 }
 
 .center a {
     text-decoration: none;
+    color: #2534ba;
   
 }
 
 .center a:hover{
 	text-decoration: underline;
-}*/
+    color: #2534ba;
+}
 
 .footer{
     background-color: #f9f9f9;
-    padding: 0px;
-    margin: 0px;
-    height: 40%;
+    height: 80%;
     position: relative;
-    bottom:-383px;
+    bottom: -430px;
+    border-top: 1px solid;
+    border-color: #e5e3e3;
+    width: 100%; 
+    margin-left: -80px;
     
 }
 
 .footer p{
     position: relative;
     bottom: -5px;
-    right: -50px;
+    right: -80px;
     color: grey;
+}
+
+.second-footer{
+    background-color:  #f9f9f9; 
+    height: 50px;
+    border-top: 1px solid;
+    border-color: #e5e3e3;
     width: 100%;
+    position: relative;
+    bottom: -430px;
+    margin-right: -80px;
 }
 
 .leftlist{
     list-style: none;
     position: relative;
-    top: -5px;
+    left: -45px;
+    bottom: -8px;
+   
+}
+
+.rightlist{
+    list-style: none;
+    float: right;
+    position: relative;
+    top: -23px;
+    left: -50px;
 }
 
 .bottomleft{
@@ -199,17 +223,12 @@ input:hover:after{
 
 .bottomleft a:hover{
     text-decoration: underline;
+    color: grey;
 }
 
 
 
-.rightlist{
-    list-style: none;
-    float: right;
-    position: relative;
-    top: -60px;
-    left: -50px;
-}
+
 
 .bottomright{
     display: inline;
@@ -223,4 +242,5 @@ input:hover:after{
 
 .bottomright a:hover{
     text-decoration: underline;
+    color: grey;
 }
