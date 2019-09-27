@@ -1,4 +1,11 @@
 
+html, body {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 0;
+    padding: 0 30px 0 0;
+}
+
 
 .toplist{
     top: auto;
@@ -56,17 +63,21 @@ span.glyphicon{
 	width: 40%;
 	position: relative;
 	bottom: -250px;
+    left: -10px;
 	font-size: 2px;
 }
 
 
 img{
+    max-width: 400px;
+    width: 55%;
     height: auto;
     max-width: 400px;
-    width: 60%;
+  
     position: relative;
-    top: -160px;
-    right: -140px;
+    top: -150px;
+    right: -210px;
+    text-align: center;
 }
 
 form{
@@ -75,6 +86,7 @@ form{
     font-size:20px;
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
 
 form i{
@@ -83,6 +95,7 @@ form i{
     right: -80px;
     align-items: center;
     color: #4e91fc;
+    text-align: center;
 }
 
 
@@ -95,18 +108,20 @@ input{
     padding: 0px;
     margin: 0px;
     height: 35px;
+
+    width: 80%;
     max-width: 450px;
     width: 75%;
     background-color: #effff;
     outline: none;
     transform: scale(1.1,1.1);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 1px #ccc;
 }
 
 input:hover{
     box-shadow: 0 2px 2px #ccc;
     transform: scale(1.1,1.1);
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 input:hover:after{
@@ -119,7 +134,7 @@ input:hover:after{
     font-size: 12px;
     text-align: center;
     position: relative;
-    right: -195px;
+    right: -280px;
     top: -130px;
     margin: 4px;
     padding: 0px;
@@ -136,7 +151,7 @@ input:hover:after{
     border-color: #ccc;
 }
 
-/*.middlelist{
+.middlelist{
 	float:right;
 	text-decoration: none;
 	margin:0;
@@ -148,29 +163,31 @@ input:hover:after{
 	margin: 3px;
 	padding: 0;
 	position: relative;
-	top: -190px;
-	left: -110px;
-    font-size: 15px; 
+	top: -115px;
+	right: -10px;
+    font-size: 12px; 
 	
 }
 
 .center a {
     text-decoration: none;
+    color: #2534ba;
   
 }
 
 .center a:hover{
 	text-decoration: underline;
-}*/
+    color: #2534ba;
+}
 
 .footer{
     background-color: #f9f9f9;
-    padding: 0px;
-    margin: 0px;
-    height: 40%;
+    height: 80%;
     position: relative;
-    bottom:-383px;
-    
+    bottom: -430px;
+    border-top: 1px solid;
+    border-color: #e5e3e3;
+    width: 100%; 
 }
 
 .footer p{
@@ -178,13 +195,31 @@ input:hover:after{
     bottom: -5px;
     right: -50px;
     color: grey;
+}
+
+.second-footer{
+    background-color:  #f9f9f9; 
+    height: 50px;
+    border-top: 1px solid;
+    border-color: #e5e3e3;
     width: 100%;
+    position: relative;
+    bottom: -430px;
 }
 
 .leftlist{
     list-style: none;
     position: relative;
-    top: -5px;
+    bottom: -8px;
+   
+}
+
+.rightlist{
+    list-style: none;
+    float: right;
+    position: relative;
+    top: -23px;
+    left: -50px;
 }
 
 .bottomleft{
@@ -203,13 +238,7 @@ input:hover:after{
 
 
 
-.rightlist{
-    list-style: none;
-    float: right;
-    position: relative;
-    top: -60px;
-    left: -50px;
-}
+
 
 .bottomright{
     display: inline;
